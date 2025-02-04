@@ -20,13 +20,13 @@ python train.py
 You can modify the network structure from the Models folder.
 ## Requirements
 ```
-necessary(必须):
+necessary:
 -pytorch
 -numpy
 -chardet
 -PIL
 
-optional(可选):
+optional:
 -fvcore
 -tensorboard
 -torchinfo
