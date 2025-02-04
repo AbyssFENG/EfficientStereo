@@ -10,7 +10,7 @@ from torch.utils import data
 
 
 load_model = '../trained/your_weights.tar'
-fold_path = '../Dataset/your_data_fold/'
+fold_path = '../Dataset/Test/'
 
 seed = 1
 padding = 32
