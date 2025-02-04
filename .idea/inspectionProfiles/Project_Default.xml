@@ -1,0 +1,71 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1240" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.12" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="25">
+            <item index="0" class="java.lang.String" itemvalue="imagecorruptions" />
+            <item index="1" class="java.lang.String" itemvalue="cityscapesscripts" />
+            <item index="2" class="java.lang.String" itemvalue="tqdm" />
+            <item index="3" class="java.lang.String" itemvalue="scipy" />
+            <item index="4" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="5" class="java.lang.String" itemvalue="h5py" />
+            <item index="6" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="7" class="java.lang.String" itemvalue="numpy" />
+            <item index="8" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="9" class="java.lang.String" itemvalue="Pillow" />
+            <item index="10" class="java.lang.String" itemvalue="imread-from-url" />
+            <item index="11" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="12" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="13" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="14" class="java.lang.String" itemvalue="yacs" />
+            <item index="15" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="16" class="java.lang.String" itemvalue="pypng" />
+            <item index="17" class="java.lang.String" itemvalue="timm" />
+            <item index="18" class="java.lang.String" itemvalue="seaborn" />
+            <item index="19" class="java.lang.String" itemvalue="thop" />
+            <item index="20" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="21" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="22" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="23" class="java.lang.String" itemvalue="omegaconf" />
+            <item index="24" class="java.lang.String" itemvalue="easydict" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PIL.Image.BILINEAR" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
