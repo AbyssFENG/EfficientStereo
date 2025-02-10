@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
-<h1 align="center">EfficientStereo: Real time stereo matching based on lightweight feature extraction and disp dimensional convolution</h1>
-<h1 align="center">EfficientStereo: 基于轻量级特征提取和深度维度卷积的实时立体匹配</h1>
+<h1 align="center">EfficientStereo: A Real-Time Stereo Matching Approach Using Lightweight Feature Extraction and Disparity-Dimensional Convolution</h1>
+<h1 align="center">EfficientStereo：一种使用轻量级特征提取和视差维卷积的实时立体匹配方法</h1>
   
 ## Highlighted features
 - 使用非常简单的特征提取，GWC构建代价体积，使用沙漏结构进行聚合，在沙漏中插入深度维度卷积模块，使用softmax对disp进行视差回归。
