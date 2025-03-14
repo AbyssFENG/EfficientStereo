@@ -239,7 +239,7 @@ def main():
             total_test_loss += bad3error
         print("本轮测试花费：", time.time() - test_time)
         print('epoch %d total 3-px error in val = %.3f' % (epoch, total_test_loss / len(TestImgLoader) * 100))
-        print('epoch %d total 3-px error in val = %.3f' % (epoch, total_test_avg / len(TestImgLoader)))
+        print('epoch %d total avg error in val = %.3f' % (epoch, total_test_avg / len(TestImgLoader)))
         writer.add_scalar("bad3 loss", (total_test_loss / len(TestImgLoader)) * 100, epoch)
         writer.add_scalar("avg error", total_test_avg / len(TestImgLoader), epoch)
         if total_test_loss / len(TestImgLoader) * 100 < min_error:
