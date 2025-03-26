@@ -46,9 +46,9 @@ class EfficientStereo(nn.Module):
         self.BuildVolume = CostVolumeGWC.CostVolumeGWC(int(max_disp / 8), 32)
         # self.BuildVolume = CostVolumeConcat.CostVolumeConcat(max_disp, 8)
         self.CostAgg = HourGlassDisp.HourGlass(32)
-
+        
         self.Classify = Classifier(32)
-
+        self.Regression = DisparityRegression(max_disp)
     def forward(self, left, right):
         left_feature = self.FeatureExtraction(left)
 
@@ -75,7 +75,7 @@ class EfficientStereo(nn.Module):
                                         mode='trilinear', align_corners=False)
         cost_squeezed = torch.squeeze(cost_up_sampled, 1)
         pred = F.softmax(cost_squeezed, dim=1)
-        pred = DisparityRegression(self.max_disp)(pred)
+        pred = self.Regression(pred)
 
         return pred
 
