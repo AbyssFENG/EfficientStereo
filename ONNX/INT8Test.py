@@ -70,11 +70,6 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 
-
-
-
-
-
 model_fp32 = "EfficientStereo_fused.onnx"
 session_fp32 = ort.InferenceSession(model_fp32, providers=["CUDAExecutionProvider"])
 
