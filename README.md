@@ -29,6 +29,10 @@ necessary:
 -numpy
 -PIL
 
+if tensorrt
+optional:
+-tensorrt>=10.9.0.34
+-pytorch>=2.3.1
 ```
 
 **Note**: 
