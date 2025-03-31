@@ -18,18 +18,17 @@ python train.py
 可以直接从Models文件夹里面修改网络结构。
 
 You can modify the network structure from the Models folder.
+
+## Model
+You can download the [model](https://pan.baidu.com/s/1yo6P6p5dVrdndjuriMcIoA?pwd=8eh6) here
+
 ## Requirements
 ```
 necessary:
 -pytorch
 -numpy
--chardet
 -PIL
 
-optional:
--fvcore
--tensorboard
--torchinfo
 ```
 
 **Note**: 
