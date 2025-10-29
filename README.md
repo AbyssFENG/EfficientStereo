@@ -35,16 +35,6 @@ optional:
 -pytorch>=2.3.1
 ```
 
-## BibTeX
-```bibtex@
-article{tang2025efficientstereo,
-  title={EfficientStereo: A Real-Time Stereo Matching Approach Using Lightweight Feature Extraction and Disparity-Dimensional Convolution},
-  author={Tang, Jianfeng and Liu, Jingxian and Ding, Siran and Pan, Yan and Xu, Mai},
-  journal={Authorea Preprints},
-  year={2025},
-  publisher={Authorea}
-}
-```
 
 **Note**: 
 This code is only used for academic purposes, people cannot use this code for anything that might be considered commercial use.
